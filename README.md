@@ -8,6 +8,10 @@ This is a fork of [hermetic](https://github.com/eudoxia0/hermetic), a deprecated
 
 Yes. `hismetic` uses `bcrypt` and I don't care about other algorithms. Do not suggest them.
 
+## Repositories
+
+`hismetic` is [on Ultralisp.](https://ultralisp.org/projects/dertuxmalwieder/cl-hismetic) Fetch it from a dependency manager of your choice.
+
 ## Usage
 
 Load `hismetic.lisp` from inside your project, then run `(hismetic:setup)`, providing functions that access users, passwords and roles:
